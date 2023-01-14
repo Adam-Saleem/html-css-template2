@@ -1,0 +1,319 @@
+/* header */
+header {
+  background-color: orange;
+  color: white;
+  max-height: 100px;
+}
+.page-title {
+  font-size: 110%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.page-info {
+  font-size: 90%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.tel {
+  text-decoration: none;
+  color: white;
+}
+/* pages & social media */
+.pages-button button {
+  border: none;
+  background-color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+.pages-button button:hover {
+  color: orange;
+}
+.pages-button button:first-child {
+  border-bottom: 5px solid rgb(3, 223, 3);
+}
+.social-media button {
+  border: none;
+  background-color: white;
+  font-size: 16px;
+  color: rgb(34, 185, 34);
+}
+.social-media button:hover {
+  font-size: larger;
+}
+/* page intro */
+.intro {
+  background-image: url("../imgs/beach.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 120%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+.intro-info {
+  padding: 25px;
+}
+.intro-info button {
+  width: 130px;
+  height: 60px;
+  border: none;
+  background-color: greenyellow;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 4%;
+}
+
+.intro-button-slide {
+  margin-top: 450px;
+}
+.intro-button-slide button {
+  border: none;
+  background-color: greenyellow;
+  font-size: x-large;
+  border-radius: 50%;
+}
+
+.intro-button-slide button:first-child {
+  background-color: white;
+}
+
+/* insurance */
+.insurance {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(70, 69, 69);
+}
+.hr {
+  width: 150px;
+  height: 3px;
+  background-color: rgb(139, 139, 139);
+}
+
+/* photos-container */
+.photos-container {
+  margin: 30px;
+}
+.photo {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: whitesmoke;
+}
+
+/* img */
+.img-size {
+    width: 25%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+  
+  .img-1 {
+    background-image: url("../imgs/Traveler.jpg");
+  }
+  .img-2 {
+    background-image: url("../imgs/maldives.jpg");
+  }
+  .img-3 {
+    background-image: url("../imgs/plane.jpg");
+  }
+  .img-4 {
+    background-image: url("../imgs/eiffel-tower.jpeg");
+  }
+
+  /* ask-continer */
+.ask{
+    background-color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: white;
+    padding : 1px ;
+}
+
+.ask-continer{
+    background-image: url('../imgs/ask.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 90%;
+}
+.ask-continer i{
+    font-size: 60px;
+}
+.ask-continer div{
+    padding: 2%;
+    color: white;
+}
+
+/* cover */
+.cover{
+    padding: 2% 0%;
+    background-color: lightgray;
+    color: rgb(138, 138, 138);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.figures div{
+    margin: 10px;
+    display: inline-block;
+}
+
+.figures img{
+    width: 100px;
+    height: 100px;
+}
+
+
+/* Testimonials */
+.Testimonials-background{
+    background-image: url('../imgs/beach2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.Testimonials button{
+    width: 130px;
+  height: 60px;
+  border: none;
+  background-color: greenyellow;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 4%;
+}
+.quotation{
+    color: orange;
+}
+
+/* important */
+.rectangle{
+    border: solid 1px greenyellow;
+    width: 70%;
+    margin-right: 3%;
+}
+
+.sequare{
+    background-color: white;
+    display: inline-block;
+    border-right: solid 1px greenyellow ;
+    border-bottom: solid 1px greenyellow ;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 10%;
+    top: 20%;
+    transform: rotate(-45deg);
+}
+
+.idea{
+    margin: 2%;
+}
+
+.website-link{
+    color: green;
+    display: block;
+    padding: 1% 0% 4% 20%;
+}
+
+/* discount */
+.discaount{
+    background-color: orange;
+    padding: 30px 0px;
+}
+.h1-inline{
+    display: inline;
+}
+.discaount i{
+    font-size: 60px;
+    margin-right: 18px;
+}
+
+/* footer */
+footer{
+    background-color: gray;
+}
+.footer-info h2{
+    color: white;
+}
+.footer-info h4{
+    color: lightgray;
+}
+.footer-hr{
+    height: 3px;
+    background-color: rgb(139, 139, 139);
+}
+
+footer i{
+    color: orange;
+}
+/* hight */
+
+.hight-30{
+    height: 30%;
+}
+/* width */
+.w-25{
+    width: 25%;
+    display: inline-block;
+}
+.w-50 {
+  width: 50%;
+  display: inline-block;
+}
+
+.w-33{
+    width: 33%;
+    display: inline-block;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-80{
+    width: 80%;
+    display: inline-block;
+}
+
+/* flex */
+.flex {
+  display: flex;
+}
+
+/* margin */
+.margin-top-0{
+    margin-top: 0px;
+    padding-top: 20px;
+}
+.margin-bottom-0{
+    margin-bottom: 0%;
+    padding-bottom: 15px;
+}
+.margin-top-1 {
+  margin-top: 1%;
+}
+.margin-left-30 {
+  margin-left: 30px;
+}
+/* padding */
+.padding-left-18 {
+  padding-left: 18%;
+}
+
+.padding-right-18 {
+  padding-right: 18%;
+}
+
+.padding-left-10 {
+  padding-left: 10%;
+}
+
+.padding-right-10 {
+  padding-right: 10%;
+}
+/* txt */
+.txt-end {
+  text-align: end;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+/* background */
+
+.bg-black-4{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.bg-black-5{
+    background-color: rgba(0, 0, 0, 0.5);
+}
